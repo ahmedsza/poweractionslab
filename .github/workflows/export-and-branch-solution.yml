@@ -19,8 +19,8 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: '<ENVIRONMENTURL>'
-        user-name: '<USERNAME>'
+        environment-url: 'https://org0ee07e4d.crm.dynamics.com/'
+        user-name: 'ahmeds@microsoft.com'
         password-secret: ${{ secrets.password }}
 
     - name: export-solution action
